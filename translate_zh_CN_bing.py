@@ -15,7 +15,7 @@ class BingFanyi:
         # @param string ToLanguage 目标语言相应代码
         self.host = 'api.cognitive.microsofttranslator.com'
         self.path = '/translate?api-version=3.0'
-        self.subscriptionKey = 'fc278423ccf7460a9c6da38a049dcd5c'   #应用subscriptionKey，失效请自行申请更换
+        self.subscriptionKey = '28e9da06f8934771acf00c01029d2f9d'   #应用subscriptionKey，失效请自行申请更换
         self.headers = {
             'Ocp-Apim-Subscription-Key': self.subscriptionKey,
             'Content-type': 'application/json',
